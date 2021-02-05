@@ -65,7 +65,10 @@ export default function Home() {
                   </Link>
                 </div>
                 <div>
-                  <Link href="/typeform">
+                  <Link
+                    href="https://tejaskotha.typeform.com/to/FrMxdc7A"
+                    target="_blank"
+                  >
                     <button className="flex bg-black cursor-pointer rounded-md mt-4 p-3 px-4">
                       <div className="pr-2 text-white font-medium hover:link-styling">
                         Lodge a Complaint
