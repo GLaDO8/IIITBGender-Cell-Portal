@@ -29,7 +29,7 @@ export default function Home() {
                 goals,
               </p>
               <br />
-              <ul>
+              <ul className="list-disc pl-6">
                 <li>
                   Gender Amity - Promoting gender equality, gender-justice and
                   non-discrimination
@@ -46,11 +46,11 @@ export default function Home() {
                 Any student, faculty, staff member or a service provider who is
                 associated with IIITB may contact the Gender Cell.
               </p>
-              <div className="flex flex-row items-center mb-48">
-                <div>
+              <div className="flex flex-col md:flex-row md:items-center mb-48">
+                <div className="flex-1 md:flex-initial">
                   <Link href="mailto: meenakshi@iiitb.ac.in">
-                    <button className="flex cursor-pointer bg-black rounded-md mt-4 mr-6 p-3 px-4">
-                      <div className="pr-2 text-white font-medium">
+                    <button className="flex cursor-pointer bg-black items-center rounded-md mt-4 mr-6 p-3 px-4">
+                      <div className="pr-2 text-white font-medium text-sm lg:text-base">
                         Mail a Representative
                       </div>
                       <div>
@@ -64,13 +64,13 @@ export default function Home() {
                     </button>
                   </Link>
                 </div>
-                <div>
+                <div className="flex-1 md:flex-initial">
                   <Link
-                    href="https://tejaskotha.typeform.com/to/FrMxdc7A"
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=MebC3lbWPEev_0RwCJadLxuwTdfpsANMrxbpe5A1UUVUNTBWME43OUsxRUFTQ1cwUTNROVlZVlM2TS4u"
                     target="_blank"
                   >
-                    <button className="flex bg-black cursor-pointer rounded-md mt-4 p-3 px-4">
-                      <div className="pr-2 text-white font-medium hover:link-styling">
+                    <button className="flex bg-black cursor-pointer items-center rounded-md mt-4 p-3 px-4">
+                      <div className="pr-2 text-white text-sm lg:text-base font-medium hover:link-styling">
                         Lodge a Complaint
                       </div>
                       <div>
