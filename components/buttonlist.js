@@ -11,7 +11,7 @@ const navButtons = [
   },
   {
     label: "FAQs",
-    path: "/writings",
+    path: "/faq",
   },
 ];
 
