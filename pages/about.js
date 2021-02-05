@@ -11,17 +11,18 @@ export default function About() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div>
-          <div className="flex flex-row">
+          <h1 className="title-style">Members</h1>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-y-6 md:gap-x-6 mt-12">
             <div className="rounded-lg overflow-hidden">
               <Image
                 src="/meenakshi.jpg"
                 alt="Image of Prof.Meenakshi"
-                width={320}
-                height={320}
+                width={300}
+                height={300}
                 layout="responsive"
               />
             </div>
-            <div>
+            <div className="col-span-3">
               <p>
                 Prof. Meenakshi D’ Souza is an Associate Professor and former
                 Warden (Women's hostel) at IIIT Bangalore. She has been at the
