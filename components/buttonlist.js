@@ -6,8 +6,8 @@ const navButtons = [
     path: "/",
   },
   {
-    label: "Contact Us",
-    path: "/contact",
+    label: "About",
+    path: "/about",
   },
   {
     label: "FAQs",
