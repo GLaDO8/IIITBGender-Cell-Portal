@@ -43,7 +43,7 @@
     @apply text-black;
   }
   .link-styling {
-    border-bottom: 2px solid black;
+    @apply text-link-blue transition duration-300 ease-in-out;
   }
   .panel {
     padding: 0 18px;
