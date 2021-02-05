@@ -12,7 +12,7 @@ export default function About() {
         </Head>
         <div>
           <h1 className="title-style">Members</h1>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-y-6 md:gap-x-6 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-y-6 md:gap-x-6 mt-12 mb-64">
             <div className="rounded-lg overflow-hidden">
               <Image
                 src="/meenakshi.jpg"
