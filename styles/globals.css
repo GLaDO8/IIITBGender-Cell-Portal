@@ -45,4 +45,34 @@
   .link-styling {
     border-bottom: 2px solid black;
   }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    @apply mb-4;
+  }
+  .accordion {
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    @apply py-4 pr-4 font-medium text-lg mb-2;
+  }
+  .accordion:after {
+    content: "\02795"; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #fff;
+    float: right;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    color: #fff;
+  }
 }
