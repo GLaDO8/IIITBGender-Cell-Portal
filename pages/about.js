@@ -12,8 +12,8 @@ export default function About() {
         </Head>
         <div>
           <h1 className="title-style">Members</h1>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-y-6 md:gap-x-6 mt-12 mb-64">
-            <div className="rounded-lg overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-y-6 md:gap-x-6 mt-12 mb-64 items-center">
+            <div className="rounded-full overflow-hidden">
               <Image
                 src="/meenakshi.jpg"
                 alt="Image of Prof.Meenakshi"
@@ -24,11 +24,16 @@ export default function About() {
             </div>
             <div className="col-span-3">
               <p>
-                Prof. Meenakshi D’ Souza is an Associate Professor and former
-                Warden (Women's hostel) at IIIT Bangalore. She has been at the
-                forefront of tackling gender-related issues on the campus since
-                she joined. He heads the Gender Cell and Internal Complaints
-                Committee at the campus.
+                <a
+                  className="cursor-pointer link-styling"
+                  href="https://www.iiitb.ac.in/faculty/meenakshi-dsouza"
+                >
+                  Prof. Meenakshi D’ Souza
+                </a>{" "}
+                is an Associate Professor and former Warden (Women's hostel) at
+                IIIT Bangalore. She has been at the forefront of tackling
+                gender-related issues on the campus since she joined. She heads
+                the Gender Cell and Internal Complaints Committee at the campus.
               </p>
             </div>
           </div>
