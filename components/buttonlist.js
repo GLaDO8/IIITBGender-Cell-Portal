@@ -6,6 +6,14 @@ const navButtons = [
     path: "/",
   },
   {
+    label: "News",
+    path: "/news",
+  },
+  {
+    label: "Resources",
+    path: "/resources",
+  },
+  {
     label: "About",
     path: "/about",
   },

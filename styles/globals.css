@@ -36,6 +36,9 @@
   .title-style {
     @apply text-xl font-title md:text-3xl lg:text-5xl font-semibold tracking-tighter leading-tight md:leading-none my-4;
   }
+  .subtitle-style {
+    @apply text-lg font-title md:text-xl lg:text-3xl font-medium tracking-tighter leading-tight md:leading-none my-4;
+  }
   .menu-btn-lg {
     @apply inline-block transition duration-300 ease-in-out text-sm lg:text-lg px-2 lg:px-4 py-4 leading-none hover:text-black font-medium;
   }
@@ -74,5 +77,16 @@
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
     color: #fff;
+  }
+  .my-masonry-grid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    /* margin-left: 0px; */
+    display: flex;
+    width: auto;
+  }
+  .my-masonry-grid_column {
+    @apply p-1 py-8;
+    background-clip: padding-box;
   }
 }
