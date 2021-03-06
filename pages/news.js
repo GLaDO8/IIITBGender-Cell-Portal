@@ -28,7 +28,7 @@ export default function News() {
                 alt=""
                 width="1149"
                 height="610"
-                Layout="responsive"
+                layout="responsive"
                 className="rounded-lg overflow-hidden"
               />
             </div>
@@ -42,7 +42,7 @@ export default function News() {
                   alt=""
                   width="852"
                   height="723"
-                  Layout="responsive"
+                  layout="responsive"
                   className="rounded-lg overflow-hidden"
                 />
                 <Image
@@ -50,7 +50,7 @@ export default function News() {
                   alt=""
                   width="1040"
                   height="717"
-                  Layout="responsive"
+                  layout="responsive"
                   className="rounded-lg overflow-hidden"
                 />
                 <Image
@@ -58,7 +58,7 @@ export default function News() {
                   alt=""
                   width="1202"
                   height="648"
-                  Layout="responsive"
+                  layout="responsive"
                   className="rounded-lg overflow-hidden"
                 />
                 <Image
@@ -66,7 +66,7 @@ export default function News() {
                   alt=""
                   width="1200"
                   height="640"
-                  Layout="responsive"
+                  layout="responsive"
                   className="rounded-lg overflow-hidden"
                 />
               </Masonry>
@@ -83,7 +83,7 @@ export default function News() {
                 alt=""
                 width="1024"
                 height="681"
-                Layout="responsive"
+                layout="responsive"
                 className="rounded-lg overflow-hidden"
               />
             </div>
@@ -96,7 +96,7 @@ export default function News() {
                   alt=""
                   width="1024"
                   height="681"
-                  Layout="responsive"
+                  layout="responsive"
                   className="rounded-lg overflow-hidden"
                 />
               </Masonry>
