@@ -1,15 +1,7 @@
 import Head from "next/head";
-import Link from "next/link";
 import Image from "next/image";
 import Layout from "./../components/layout";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-
-// const breakpointColumnsObj = {
-//   default: 2,
-//   1400: 2,
-//   1100: 2,
-//   800: 1,
-// };
 
 export default function News() {
   return (
