@@ -16,7 +16,13 @@ export default function Home() {
               <p>
                 IIIT Bangalore’s Gender Cell is an institutional body that works
                 towards promoting equality, nondiscrimination and gender justice
-                on the campus. It inquires into complaints of sexual harassment.
+                on the campus. It organises workshops, seminars and inquires
+                into matters of misconduct.
+              </p>
+              <br />
+              <p>
+                ICC (separate from Gender Cell) is a government mandated body
+                which inquires specifically in the matters of sexual harassment.
               </p>
             </div>
             <div className="mb-12">
@@ -45,6 +51,11 @@ export default function Home() {
               <p>
                 Any student, faculty, staff member or a service provider who is
                 associated with IIITB may contact the Gender Cell.
+              </p>
+              <br />
+              <p>
+                Complaints lodged through the form below will be automatically
+                redirected to the respective body based on the class of offense.{" "}
               </p>
               <div className="flex flex-col md:flex-row md:items-center mb-48">
                 <div className="flex-1 md:flex-initial">
