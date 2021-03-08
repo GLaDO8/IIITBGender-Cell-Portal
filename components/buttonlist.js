@@ -14,7 +14,7 @@ const navButtons = [
     path: "/resources",
   },
   {
-    label: "About",
+    label: "Members",
     path: "/about",
   },
   {

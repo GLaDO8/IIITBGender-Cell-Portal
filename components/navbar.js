@@ -1,6 +1,6 @@
 import NavButton from "./../components/navbutton";
 import Link from "next/link";
-import GCPLogo from "./../public/gender-cell-logo.svg";
+import GCPLogo from "./../public/gcellogo.svg";
 const Navbar = (props) => (
   <>
     <div className="container mx-auto max-w-lg md:max-w-3xl lg:max-w-4xl">
